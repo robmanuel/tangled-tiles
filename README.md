@@ -39,6 +39,4 @@ Now, I can't really explain it but this put me into almost a comedy trance where
 
 This is AIs idea of a good game. A game where you can only click letters, lay them out on their side and score negative points for it.
 
-The only winning move is not to play.
-
-If you'd like to experience this wonder: https://htmlpreview.github.io/?https://github.com/robmanuel/tangled-tiles/blob/master/index.html
+The only winning move is not to play --> https://htmlpreview.github.io/?https://github.com/robmanuel/tangled-tiles/blob/master/index.html
