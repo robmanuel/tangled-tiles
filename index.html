@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tangled Tiles</title>
+    <style>
+      #game {
+        width: 300px;
+        margin: 0 auto;
+      }
+
+      #board {
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+        position: relative;
+      }
+
+      .tile {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        font-size: 24px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+      }
+
+      #moves {
+        text-align: center;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game">
+      <div id="board"></div>
+      <div id="moves">Score: <span id="moves-left">0</span></div>
+    </div>
+    <script>
+      // Define the game board as a 2D array of tiles
+      var board = [
+        ['B', 'N', 'Q', 'H','Y'],
+        ['A', 'B', 'E', 'I','O'],
+        ['Q', 'B', 'R', 'T','P'],
+        ['M', 'H', 'F', 'E','U']
+      ];
+
+      // Define the starting score
+      var score = 0;
+
+      // Get a reference to the game board element
+      var boardEl = document.getElementById('board');
+
+      // Create the tiles on the game board
+      for (var row = 0; row < board.length; row++) {
+        for (var col = 0; col < board[row].length; col++) {
+          var tileEl = document.createElement('div');
+          tileEl.className = 'tile';
+          tileEl.innerText = board[row][col];
+          tileEl.style.top = (row * 50) + 'px';
+          tileEl.style.left = (col * 50) + 'px';
+          tileEl.onclick = function() {
+            // Move the tile when clicked
+            this.style.transform = 'rotate(90deg)';
+            score--;
+            document.getElementById('moves-left').innerText = score;
+          };
+          boardEl.appendChild(tileEl);
+        }
+      }
+    </script>
+  </body>
+</html>
