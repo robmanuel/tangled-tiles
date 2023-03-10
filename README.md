@@ -1,6 +1,7 @@
 # tangled-tiles
 
-There's a viral thing doing the round about how some dude asked AI to design a game and then asked AI to build it and it's actually a pretty playable game.
+There's a viral game called Sumation doing the round about how some dude asked AI to design a game and then asked AI to build it and it's actually a pretty playable.
+
 I thought I'd have a go, so I asked CHATGTP "Can you please suggest 10 ideas for original puzzle games?"
 
 It paused for a moment and said, "Happy to do that" and spat out a list" which I quickly read and one caught my eye "Tangled Tiles. Connect up letters to solve the puzzle"
@@ -12,11 +13,8 @@ And the device said, "I can" and it did and it spat out about 2k of HTML with em
 So it presented me with a screen say 5x5 of random letters.
 
 B N Q H Y
-
 A B E I O 
-
 Q B R T P
-
 M H F E U 
 
 And it also offered me a score which started as zero.
@@ -24,11 +22,8 @@ And it also offered me a score which started as zero.
 Excited to play this game I clicked a the letter Q and the letter rotated 90 degrees.
 
 B N ℺ H Y
-
 A B E I O 
-
 Q B R T P
-
 M H F E U 
 
 And not only this my score went down to -1.
