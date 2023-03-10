@@ -1,6 +1,6 @@
 # tangled-tiles
 
-There's a viral game called Sumation doing the round about how some dude asked AI to design a game and then asked AI to build it and it's actually a pretty playable.
+There's a viral game called Sumplete doing the round about how some dude asked AI to design a game and then asked AI to build it and it's actually a pretty playable.
 
 I thought I'd have a go, so I asked CHATGTP "Can you please suggest 10 ideas for original puzzle games?"
 
